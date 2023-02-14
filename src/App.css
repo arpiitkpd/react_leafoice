@@ -1,38 +1,341 @@
-.App {
-  text-align: center;
+.home-sec{
+   
+    height: 600px;
+    background: #effffc;
+}
+.nav{
+   
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    color: #0b3c36;
+    font-size: large;
+    font-weight: bold;
+}
+.logo :hover{
+  color: #0b3c36;
+}
+.nav a{
+   text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.categoriesbtn{
+    margin: 0px 30px 0px 30px;
+    
+}
+.btn{
+    color: #0b3c36;
+    font-weight: bold;
+    width: 124px;
+    border-radius: 0px 13px;
+}
+.btn:hover{
+    color: #effffc;
+    background-color: #0b3c36;
+
+    
+}
+.contactbtn{
+    color: #0b3c36;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #effffc;
+    width: 124px;
+    border-radius: 0px 13px;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 1;
+    
+}
+.contactbtn:hover{
+color: #0b3c36;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-sec{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 0px 0px 80px;
+    background-color: #0b3c36;
+    height: 600px;
+    width: 475px;
 }
 
-.App-link {
-  color: #61dafb;
+.intro{
+  
+    font-size: 51px;
+    display: table-caption;
+    width: 581px;
+    color: #0b3c36;
+    font-weight: bold;
+    font-family: auto;
+    margin-left: 179px;
+    margin-top: 90px;
+}
+.desc{
+    display: inline-block;
+    margin-left: 179px;
+    width: 536px;
+    margin-top: 15px;
+    color: #0b3c36;
+    font-family: emoji;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-home{
+    border: none;
+    background-color: #0b3c36;
+    color: #effffc;
+    width: 124px;
+    border-radius: 0px 13px;
+    font-size: 18px;
+}
+
+.category-sec{
+    
+    height: 268px;
+
+    align-items: end;
+}
+.health{
+    display: flex;
+    height: 193px;
+    width: 18%;
+    background-color: #effffc;
+}
+.showcase{
+    height: 193px;
+    width: 18%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #effffc;
+}
+.meditation{
+  
+    height: 193px;
+    width: 18%;
+    background-color: #effffc;
+}
+.imag-1{
+    background-image: url("./photos/plant1f.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 481px;
+    width: 284px;
+    position: absolute;
+    top: 76px;
+    right: 323px;
+}
+.health-img{
+    background-image: url("./photos/health.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 217px;
+    position: relative;
+    top: -49px;
+    left: -6px;
+    width: 139px;
+   
+}
+.meditation-img{
+    background-image: url("./photos/medi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 217px;
+    position: relative;
+    top: -49px;
+    left: -6px;
+    width: 139px;
+   
+}
+.showcase-img{
+    background-image: url("./photos/showcase.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 217px;
+    position: relative;
+    top: -57px;
+    left: -24px;
+    width: 139px;
+   
+}
+.health a{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    width: 177px;
+    font-weight: bold;
+    color: #0b3c36;
+    text-decoration:none
+}
+
+.head{
+
+    margin-top: 29px;
+    align-items: center;
+    height: 71px;
+}
+.container{
+ 
+    width: 1054px;
+    height: 356px;
+    margin-top: 6px;
+
+}
+
+.head{
+  color: #0b3c36;
+
+}
+.shop-arr{
+  color: #0b3c36;
+  font-size: 15px;
+  font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+}
+.shop-arr:hover{
+  color: #0b3c36;
+  font-size: 15px;
+  font-weight: bold;
+cursor: pointer;
+text-decoration: underline;
+}
+
+.shopItem{
+    height: 311px;
+
+    display: block;
+    width: 271px;
+    background-color: white;
+    margin: 0px 30px;
+}
+
+.cactus-img{
+    background-image: url("./photos/cactus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 217px;
+    display: flex;
+    background-size: contain;
+    border: 2px solid grey;
+    width: 100%;
+}
+.metaphor-img{
+    background-image: url("./photos/plant7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 217px;
+    display: flex;
+    background-size: contain;
+    border: 2px solid grey;
+    width: 100%;
+}
+.high-img{
+    background-image: url("./photos/plant2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 217px;
+    display: flex;
+    background-size: contain;
+    border: 2px solid grey;
+    width: 100%;
+}
+
+.shopItem a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.details:hover{
+    text-decoration: underline;
+}
+.price{
+    display: block;
+    text-decoration: none;
+    color: rgb(177, 171, 171);
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-weight: 600;
+    height: 20px;
+  
+    align-items: center;
+}
+.shop-btn{
+    margin-right: 20px;
+    ;
+}
+
+.contact-conatiner{
+    height: 350px;
+    align-items: center;
+    background-color: black;
+}
+
+.corp{
+    width: 300px;
+    height: 300px;
+    margin-left: 24px;
+
+}
+.con-head{
+    color: #999191;
+    font-size: 22px;
+    margin-left: 17px;
+    font-weight: 500;
+}
+.list{
+    color: #999191;
+   
+}
+.list a{
+    color: #999191;
+    text-decoration: none;
+   
+}
+.list a:hover{
+    font-size: 23px;
+   
+}
+.container-contact{
+    border: 2px solid black;
+    height: 600px;
+}
+
+
+.input{
+    width: 208px;
+    height: 28px;
+}
+.cont1{
+   
+    margin-right: 40px;
+}
+.form-label{
+    color:grey
+}
+.btn-primary{
+    border-radius: 0px;
+    width: 77px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
 }
