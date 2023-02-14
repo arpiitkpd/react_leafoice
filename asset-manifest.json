@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_leafoice/static/css/main.4e5b467e.css",
+    "main.js": "/react_leafoice/static/js/main.ce311866.js",
+    "static/js/787.74da2243.chunk.js": "/react_leafoice/static/js/787.74da2243.chunk.js",
+    "static/media/plant2.jpg": "/react_leafoice/static/media/plant2.95051ae5e6d5374b6227.jpg",
+    "static/media/medi.png": "/react_leafoice/static/media/medi.fe59a309abeb0b163bdd.png",
+    "static/media/plant1f.png": "/react_leafoice/static/media/plant1f.c79d84382a13b849632d.png",
+    "static/media/health.png": "/react_leafoice/static/media/health.426daeef735f0bb4db18.png",
+    "static/media/cactus.jpg": "/react_leafoice/static/media/cactus.087d44ebf29f0451cefb.jpg",
+    "static/media/showcase.png": "/react_leafoice/static/media/showcase.2f62b31189a3e225f0f2.png",
+    "static/media/plant7.jpg": "/react_leafoice/static/media/plant7.c57699af8cb7af222a78.jpg",
+    "index.html": "/react_leafoice/index.html",
+    "main.4e5b467e.css.map": "/react_leafoice/static/css/main.4e5b467e.css.map",
+    "main.ce311866.js.map": "/react_leafoice/static/js/main.ce311866.js.map",
+    "787.74da2243.chunk.js.map": "/react_leafoice/static/js/787.74da2243.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e5b467e.css",
+    "static/js/main.ce311866.js"
+  ]
+}
