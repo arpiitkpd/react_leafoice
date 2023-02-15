@@ -339,3 +339,105 @@ text-decoration: underline;
     color: white;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1342px){
+    .mid-sec{
+        margin-left: -95px;
+    }
+    .det{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 1246px ) {
+    .mid-sec{
+        margin-left: -95px;
+    }
+    .det{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 1248px){
+    .categoriesbtn{
+        margin: -41px;
+        
+    }
+    .home-sec{
+        height: 547px;
+    }
+    .image-sec{
+        height: 547px;
+        width: 332px;
+    }
+    .intro{
+        margin-left: 102px;
+    }
+    .desc{
+        margin-left: 105px;
+    width: 501px;
+    }
+    .imag-1{    
+    top: 70px;
+    right: 181px;
+    }
+    .health{
+        width: 26%;
+    }
+    .query{
+        margin-left: 125px;
+    }
+}
+@media screen and (max-width: 984px){
+    .categoriesbtn{
+        margin: -41px;
+        
+    }
+    .image-sec{
+        height: 547px;
+        width: 299px;
+    }
+    .intro{
+        margin-left: 102px;
+    } 
+    .imag-1{    
+    top: 70px;
+    right: 139px;
+    }
+  
+}
+@media screen and (max-width: 934px){
+    .categoriesbtn{
+        margin: -41px;
+        
+    }
+    .image-sec{
+        height: 547px;
+        width: 256px;
+    }
+    .intro{
+        margin-left: 56px;
+        font-size: 50px;
+        width: 445px;
+    } 
+    .imag-1{    
+    top: 70px;
+    right: 101px;
+    }
+    .desc{
+        margin-left: 56px;
+   
+    }
+    .det{
+        width: 135px;
+    }
+    .head h2{
+        margin-right: 332px;
+    }
+    .query{
+        margin-left: 71px;
+    }
+}
+@media screen and (min-width: 788px){
+.contact-conatiner{
+    display: none;
+}
+}

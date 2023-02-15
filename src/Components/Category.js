@@ -7,7 +7,7 @@ function Category(props) {
     
         <div className="health" style={{margin:"0px 5px 0px 5px"}}>
           <div className={`${props.url}`}></div>
-           <a href="/">{props.heading} &rarr; </a>
+           <a href="/"> <div className="det">{props.heading} &rarr;</div> </a>
            
         </div>
         

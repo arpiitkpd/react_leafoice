@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div className="contact-conatiner d-flex justify-content-center">
-        <div className="query d-flex justify-content-center">
+        <div className="query ">
           <div className="cont1">
             <div className="head con-head" style={{margin:"0px", height: "57px"}}>Ask Query</div>
             <form>
@@ -39,7 +39,7 @@ function Contact() {
             </form>
           </div>
         </div>
-        <div className="corp p-2 ">
+        <div className="corp ">
           <div className="head con-head">CONTACT US</div>
           <ul className="list">
             <li>arpiitkumar02@gamil.com</li>
@@ -47,7 +47,7 @@ function Contact() {
             <li>B-80 AnandVihar NewDelhi, 201310</li>
           </ul>
         </div>
-        <div className="corp p-2 ">
+        <div className="corp  ">
           <div className="head con-head">CORPORATION</div>
           <ul className="list">
             <li>
